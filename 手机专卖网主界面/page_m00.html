@@ -1,0 +1,140 @@
+<html>
+<head>
+	<meta charset="GBK">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Headers - jQuery Mobile Demos</title>
+	<link rel="stylesheet"  href="jqm/css/themes/default/jquery.mobile-1.3.2.min.css">
+	<script src="jqm/js/jquery.js"></script>
+	<script src="jqm/js/jquery.mobile-1.3.2.min.js"></script>
+</head>
+<body>
+<!--定义框架-->
+<div data-role="page">
+	<div data-role="header" data-theme="b">
+		<h1>手机专卖网-V1.0</h1>
+	</div>
+	
+	<div data-role="content">
+
+	<label for="search">搜品牌 或 搜型号</label>
+<input name="password" id="search" value="" placeholder="品牌  型号..." type="search">
+	<label for="search">用户登陆 或 注册</label>
+<a href="#popupLogin1" data-rel="popup" data-position-to="window" data-role="button" data-inline="true" data-icon="Add" data-theme="a" data-transition="pop">注册</a>
+<div data-role="popup" id="popupLogin1" data-theme="a" class="ui-corner-all">
+    
+        <div style="padding:10px 20px;">
+            <h3>请注册</h3>
+            <label for="un" class="手机专卖网">用户名:</label>
+            <input name="user" id="un" value="" placeholder="由数字和字母组成" data-theme="a" type="text">
+            <label for="pw" class="ui-hidden-accessible">密码:</label>
+            <input name="pass" id="pw" value="" placeholder="password" data-theme="a" type="password">
+           <a data-ajax="false" href="javascript:alert('注册成功！')"><button sdata-theme="b" data-icon="check">注册</button></a>
+        </div>  
+</div>
+<a href="#popupLogin2" data-rel="popup" data-position-to="window" data-role="button" data-inline="true" data-icon="check" data-theme="a" data-transition="pop">登陆</a>
+<div data-role="popup" id="popupLogin2" data-theme="a" class="ui-corner-all">
+    
+        <div style="padding:10px 20px;">
+            <h3>请登陆</h3>
+            <label for="un" class="手机专卖网">用户名:</label>
+            <input name="user" id="un" value="" placeholder="由数字和字母组成" data-theme="a" type="text">
+            <label for="pw" class="ui-hidden-accessible">密码:</label>
+            <input name="pass" id="pw" value="" placeholder="password" data-theme="a" type="password">
+           <a data-ajax="false" href="javascript:alert('登陆成功！')"><button sdata-theme="b" data-icon="check">登陆</button></a>
+        </div>  
+</div>
+
+
+		
+
+<ul data-role="listview" data-split-icon="gear" data-split-theme="d" data-inset="true">
+    <li><a data-ajax="false" href="../iphone/page_m4_01.html">
+        <img src="image/a.png">
+        <h2>苹果</h2>
+        <p>Apple</p></a>
+        <a href="#purchase" data-rel="popup" data-position-to="window" data-transition="pop">Purchase album</a>
+    </li>
+    <li><a data-ajax="false" href="../xiaomi4/page_m4_01.html">
+        <img src="image/b.jpg">
+        <h2>小米</h2>
+        <p>Xiaomi</p></a>
+        <a href="#purchase" data-rel="popup" data-position-to="window" data-transition="pop">Purchase album</a>
+    </li>
+    <li><a data-ajax="false" href="../huawei/huawei 6/page_h6_01.html">
+        <img src="image/huawei_00.jpg">
+        <h2>华为</h2>
+        <p>HuaWei</p></a>
+        <a href="#purchase" data-rel="popup" data-position-to="window" data-transition="pop">Purchase album</a>
+    </li>
+	    <li><a data-ajax="false" href="../huawei/huawei 6/page_h6_01.html">
+        <img src="image/sanxing_00.jpg">
+        <h2>三星</h2>
+        <p>SANXING</p></a>
+        <a href="#purchase" data-rel="popup" data-position-to="window" data-transition="pop">Purchase album</a>
+    </li>
+	    <li><a data-ajax="false" href="../huawei/huawei 6/page_h6_01.html">
+        <img src="image/htc_00.jpg">
+        <h2>HTC</h2>
+        <p>HTC</p></a>
+        <a href="#purchase" data-rel="popup" data-position-to="window" data-transition="pop">Purchase album</a>
+    </li>
+	    <li><a data-ajax="false" href="../huawei/huawei 6/page_h6_01.html">
+        <img src="image/meizu_00.jpg">
+        <h2>魅族</h2>
+        <p>meizu</p></a>
+        <a href="#purchase" data-rel="popup" data-position-to="window" data-transition="pop">Purchase album</a>
+    </li>
+	    <li><a data-ajax="false" href="../huawei/huawei 6/page_h6_01.html">
+        <img src="image/zhongxing_00.jpg">
+        <h2>中兴</h2>
+        <p>ZTE</p></a>
+        <a href="#purchase" data-rel="popup" data-position-to="window" data-transition="pop">Purchase album</a>
+    </li>
+
+	    <li><a data-ajax="false" href="../huawei/huawei 6/page_h6_01.html">
+        <img src="image/tcl_00.jpg">
+        <h2>TCL</h2>
+        <p>TCL</p></a>
+        <a href="#purchase" data-rel="popup" data-position-to="window" data-transition="pop">Purchase album</a>
+    </li>
+	    <li><a data-ajax="false" href="../huawei/huawei 6/page_h6_01.html">
+        <img src="image/tianyu_00.jpg">
+        <h2>天语</h2>
+        <p>K-TOUCH</p></a>
+        <a href="#purchase" data-rel="popup" data-position-to="window" data-transition="pop">Purchase album</a>
+    </li>
+	    <li><a data-ajax="false" href="../huawei/huawei 6/page_h6_01.html">
+        <img src="image/nuojiya_00.jpg">
+        <h2>诺基亚</h2>
+        <p>NOKIA</p></a>
+        <a href="#purchase" data-rel="popup" data-position-to="window" data-transition="pop">Purchase album</a>
+    </li>
+	    <li><a data-ajax="false" href="../huawei/huawei 6/page_h6_01.html">
+        <img src="image/chuizi_00.jpg">
+        <h2>锤子</h2>
+        <p>smartisan</p></a>
+        <a href="#purchase" data-rel="popup" data-position-to="window" data-transition="pop">Purchase album</a>
+    </li>
+		    <li><a data-ajax="false" href="../huawei/huawei 6/page_h6_01.html">
+        <img src="image/kupai_00.jpg">
+        <h2>酷派</h2>
+        <p>coolpad</p></a>
+        <a href="#purchase" data-rel="popup" data-position-to="window" data-transition="pop">Purchase album</a>
+    </li>
+
+</ul>
+<div data-role="popup" id="purchase" data-theme="d" data-overlay-theme="b" class="ui-content" style="max-width:340px; padding-bottom:2em;">
+    <h3>Purchase Album?</h3>
+    <p>Your download will begin immediately on your mobile device when you purchase.</p>
+    <a href="index.html" data-role="button" data-rel="back" data-theme="b" data-icon="check" data-inline="true" data-mini="true">Buy: $10.99</a>
+    <a href="index.html" data-role="button" data-rel="back" data-inline="true" data-mini="true">Cancel</a>
+</div>
+	</div>
+
+	<div data-role="footer" data-theme="b" data-position="fixed">
+		<h1>版本所有&copy; 2015~2020</h1>
+	</div>
+</div>
+
+</body>
+</html>

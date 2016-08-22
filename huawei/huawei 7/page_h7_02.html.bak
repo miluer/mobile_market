@@ -1,0 +1,265 @@
+<html>
+<head>
+	<meta charset="GBK">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Headers - jQuery Mobile Demos</title>
+	<link rel="stylesheet"  href="jqm/css/themes/default/jquery.mobile-1.3.2.min.css">
+	<script src="jqm/js/jquery.js"></script>
+	<script src="jqm/js/jquery.mobile-1.3.2.min.js"></script>
+</head>
+<body>
+<!--定义框架-->
+<div data-role="page">
+	<div data-role="header" data-theme="b">
+	<a data-ajax="false" href="page_h7_01.html" data-icon="back">返回</a>
+		<h1>手机专卖网-V1.0</h1>
+		<a data-ajax="false" href="#" data-icon="refresh">刷新</a>	 
+	</div>
+
+	
+	<div data-role="content">
+	<label for="search">热卖手机搜索</label>
+<input name="password" id="search" value="" placeholder="品牌  型号..." type="search">
+<p>
+    <a data-ajax="false" href="../huawei p 8/page_p8_02.html" data-role="button" data-theme="a" data-inline="true">华为 P8</a>
+	    <a data-ajax="false" href="../huawei 7/page_h7_02.html" data-role="button" data-theme="a" data-inline="true">华为 7</a>
+		    <a data-ajax="false" href="../huawei 6/page_h6_02.html" data-role="button" data-theme="a" data-inline="true">华为 6</a>
+
+</p>
+
+<div data-role="controlgroup">
+    <a href="#" data-role="button">华为7</a>
+</div>
+
+
+<a href="#p4" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="../huawei 7/image/huawei_7_1.png" alt="Paris, France" style="width:30%"></a>
+<a href="#p5" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="../huawei 7/image/huawei_7_2.png" alt="Paris, France" style="width:30%"></a>
+<a href="#p6" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="../huawei 7/image/huawei_7_3.png" alt="Sydney, Australia" style="width:30%"></a>
+<div data-role="popup" id="p4" data-overlay-theme="a" data-theme="d" data-corners="false">
+    <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="../huawei 7/image/huawei_7_1.png" style="max-height:512px;" alt="Paris, France">
+</div>
+<div data-role="popup" id="p5" data-overlay-theme="a" data-theme="d" data-corners="false">
+    <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="../huawei 7/image/huawei_7_2.png" style="max-height:512px;" alt="Sydney, Australia">
+</div>
+
+<div data-role="popup" id="p6" data-overlay-theme="a" data-theme="d" data-corners="false">
+    <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="../huawei 7/image/huawei_7_3.png" style="max-height:512px;" alt="New York, USA">
+
+
+
+</div>
+	<h1>购买请戳---->></h1>
+	<a data-ajax="false" href="../huawei 7/page_h7_02.html" data-role="button" data-theme="a" data-inline="true">返回查看</a>
+    <a href="#" data-role="button" data-theme="c" data-inline="true">——</a>
+	    <a href="#" data-role="button" data-theme="c" data-inline="true">——</a>
+		    <a href="#" data-role="button" data-theme="c" data-inline="true">——</a>
+			    <a href="#" data-role="button" data-theme="c" data-inline="true">——</a>
+    <a data-ajax="false" href="../huawei 7/page_h7_03.html" data-role="button" data-theme="e" data-inline="true">点击购买</a>
+    <h4>参数详情</h4>
+    </ul>
+</div>
+<div data-role="collapsible" data-theme="b" data-content-theme="d">
+    <h4>外观尺寸</h4>
+    <p>宽=77.6mm</br>   厚=6.95mm</br>   高=155.1mm</br></p>
+</div>
+<div data-role="collapsible" data-theme="b" data-content-theme="d">
+    <h4>相机摄像</h4>
+    <p><div data-theme="b">前置摄像头</div> ——>>1300万像素光学防抖相机</br>
+索尼 1300万像素堆栈式二代图像传感器</br>
+支持 OIS 光学防抖</br>
+6片式镜头，ƒ/2.0 光圈</br>
+飞利浦双色温LED闪光灯，显色指数高达93</br>
+支持32秒手动曝光</br>
+支持手动模式、实时HDR模式、动态追焦、魔术对焦</br>
+支持补光模式，自动识别场景色温。</br>
+支持4K超高清视频录制</br>
+暗光画质增强技术</br>
+</br>
+</br>
+顶配版独有：</br>
+高通14bit 影像处理器</br>
+实时动态范围调整技术</br>
+</br>
+后置摄像头——>>400万大像素前置相机</br>
+400万大像素前置相机，单个像素大至2微米</br>
+ƒ/2.0光圈</br>
+第二代36级智能美颜</br>
+支持1080p视频录制</br>
+</p>
+</div>
+<div data-role="collapsible" data-theme="b" data-content-theme="d">
+    <h4>屏幕显示</h4>
+    <p>
+标准版——>></br>
+5.7英寸夏普/JDI 全高清屏幕</br>
+1920 x 1080像素分辨率，386 PPI</br>
+95% NTSC色域，高色彩饱和度</br>
+Nega 负液晶技术，高达1400:1对比度</br>
+像素级动态对比度调整技术</br>
+</br>
+</br>
+顶配版——>></br>
+5.7英寸夏普/JDI 2K超高清大屏</br>
+2560 x 1440像素分辨率，515 PPI</br>
+95% NTSC色域，高色彩饱和度</br>
+Nega 负液晶技术，高达1400:1对比度</br>
+阳光屏 - 像素级动态对比度调整技术</br></p>
+</div>
+<div data-role="collapsible" data-theme="b" data-content-theme="d">
+    <h4>CPU、存储与电池</h4>
+    <p>
+标准版——>></br>
+骁龙™801处理器</br>
+Adreno 330 图形处理器</br>
+</br>
+3GB LPDDR3</br>
+LPDDR3 933 MHz</br>
+</br>
+16GB / 64GB 存储空间</br>
+eMMC 5.0</br>
+</br>
+锂离子聚合物大电池</br>
+典型容量值3000mAh（typ）</br>
+最小容量值2900mAh（min）</br>
+</br>
+顶配版——>></br>
+骁龙™810处理器</br>
+Adreno 430 图形处理器</br>
+</br>
+4GB LPDDR4</br>
+LPDDR4 1600 MHz</br>
+</br>
+64GB存储空间</br>
+eMMC 5.0</br>
+</br>
+锂离子聚合物大电池</br>
+典型容量值3090mAh（typ）</br>
+最小容量值3010mAh（min）</br>
+</br>
+SIM 卡槽</br>
+顶配版与标准版均支持 micro SIM卡、 nano SIM卡</br>
+</p>
+</div>
+<div data-role="collapsible" data-theme="b" data-content-theme="d">
+    <h4>HiFi系统</h4>
+    <p>HiFi</br>
+ESS ES9018K2M / SABRE9018C2M</br>
+音频芯片动态范围 DNR：123 dBA2颗 
+</br>ADI ADA 4896(小米定制版)运放芯片最低失真 THD+N：0.00043%2颗</br>
+德州仪器 OPA1612 运放芯片互调失真：</br>0.00016%28颗1‰高精度薄膜电阻瞬态互调失真：</br>0.001%独立双时钟晶振，</br>支持 44.1kHz /48kHz </br>系列时钟频率解码支持：192kHz/24bit频响范围：10Hz-96kHz
+顶配版独有：</br>
+8颗松下PPS音频电容</br>
+二级稳压供电</br></p>
+</div>
+<div data-role="collapsible" data-theme="b" data-content-theme="d">
+    <h4>无线网络与制式</h4>
+    <p>运营商与制式</br>
+双网通版支持以下运营商和网络：</br>
+联通4G</br>
+TD/FDD-LTE</br>
+移动4G</br>
+TD-LTE</br>
+联通3G</br>
+WCDMA</br>
+移动3G</br>
+TD-SCDMA</br>
+联通2G</br>
+GSM</br>
+移动2G</br>
+GSM</br>
+双卡使用说明：任意一张SIM卡可选4G网络，另外一张为GSM网络</br></p>
+</div>
+<div data-role="collapsible" data-theme="b" data-content-theme="d">
+    <h4>无线连接</h4>
+    <p>蓝牙4.1</br>
+蓝牙HID</br>
+双频WIFI 2.4 / 5 GHz</br>
+WIFI Display</br>
+WIFI Direct</br>
+WIFI: 802.11 a/b/g/n/ac 无线网络，支持 2.4GHz 和 5GHz 频</br></p>
+</div>
+<div data-role="collapsible" data-theme="b" data-content-theme="d">
+    <h4>传感器</h4>
+    <p>气压计</br>
+电子罗盘</br>
+重力感应</br>
+光线感应</br>
+陀螺仪</br>
+霍尔感应器</br>
+距离感应器</br></p>
+</div>
+<div data-role="collapsible" data-theme="b" data-content-theme="d">
+    <h4>多媒体播放</h4>
+    <p>
+支持的视频格式</br>
+MP4</br>
+M4V</br>
+MKV</br>
+XVID</br>
+ASF</br>
+WMV</br>
+RM</br>
+RMVB</br>
+支持：H.264 – Baseline/Main/High、MPEG4 – simple/ASP、H.264 – 0、VC-1/WMV9 – Simple/Main、VC-1 – Advanced</br>
+</br>
+</br>
+支持的音频格式</br>
+AAC</br>
+MP3</br>
+WMA</br>
+AMR</br>
+FLAC</br>
+APE</br>
+DSD</br>
+WAV</br>
+支持：PCM、AAC/AAC+/eAAC+ 、MP3、WMA – V9 and V10、AMR – NB and WB、FLAC、APE、 DSD、WAV</br>
+</p>
+</div>
+<div data-role="collapsible" data-theme="b" data-content-theme="d">
+    <h4>操作系统</h4>
+    <p>电话</br>
+联系人</br>
+短信</br>
+设置</br>
+浏览器</br>
+系统更新</br>
+应用商店</br>
+主题风格</br>
+相机</br>
+相册</br>
+便签</br>
+下载管理</br>
+文件管理</br>
+视频</br>
+音乐</br>
+游戏中心</br>
+指南针</br>
+时间</br>
+手电筒</br>
+日历</br>
+安全中心</br>
+小米云</br>
+计算器</br>
+电子邮件</br>
+天气</br>
+语音助手</br>
+小米遥控器</br>
+搜索</br>
+录音机</br>
+小米运动</br>
+</p>
+</div>
+
+
+
+
+
+	</div>
+
+	<div data-role="footer" data-theme="b" data-position="fixed">
+		<h1>版本所有&copy; 2015~2020</h1>
+	</div>
+</div>
+
+</body>
+</html>

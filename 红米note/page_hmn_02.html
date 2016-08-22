@@ -1,0 +1,223 @@
+<html>
+<head>
+	<meta charset="GBK">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Headers - jQuery Mobile Demos</title>
+	<link rel="stylesheet"  href="jqm/css/themes/default/jquery.mobile-1.3.2.min.css">
+	<script src="jqm/js/jquery.js"></script>
+	<script src="jqm/js/jquery.mobile-1.3.2.min.js"></script>
+</head>
+<body>
+<!--定义框架-->
+<div data-role="page">
+	<div data-role="header" data-theme="b">
+	<a data-ajax="false" href="../红米note/page_hmn_01.html" data-icon="back">返回</a>
+		<h1>手机专卖网-V1.0</h1>
+		<a data-ajax="false" href="#" data-icon="refresh">刷新</a>	 
+	</div>
+
+	
+	<div data-role="content">
+	<label for="search">热卖手机搜索</label>
+<input name="password" id="search" value="" placeholder="品牌  型号..." type="search">
+<p>
+    <a data-ajax="false" href="../小米顶配版/page_m02.html" data-role="button" data-theme="a" data-inline="true">小米顶配版</a>
+	    <a data-ajax="false" href="../xiaomi4/page_m4_02.html" data-role="button" data-theme="a" data-inline="true">小米4</a>
+		    <a data-ajax="false" href="../红米note/page_hmn_02.html" data-role="button" data-theme="a" data-inline="true">红米note</a>
+
+</p>
+
+<div data-role="controlgroup">
+    <a href="#" data-role="button">红米note详情</a>
+</div>
+
+
+<a href="#p4" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="image/hmn1.png" alt="Paris, France" style="width:30%"></a>
+<a href="#p5" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="image/hmn2.png" alt="Paris, France" style="width:30%"></a>
+<a href="#p6" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="image/hmn3.png" alt="Sydney, Australia" style="width:30%"></a>
+<div data-role="popup" id="p4" data-overlay-theme="a" data-theme="d" data-corners="false">
+    <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="image/hmn1.png" style="max-height:512px;" alt="Paris, France">
+</div>
+<div data-role="popup" id="p5" data-overlay-theme="a" data-theme="d" data-corners="false">
+    <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="image/hmn2.png" style="max-height:512px;" alt="Sydney, Australia">
+</div>
+
+<div data-role="popup" id="p6" data-overlay-theme="a" data-theme="d" data-corners="false">
+    <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="image/hmn3.png" style="max-height:512px;" alt="New York, USA">
+
+
+
+</div>
+	<h1>购买请戳---->></h1>
+	<a data-ajax="false" href="page_hmn_01.html" data-role="button" data-theme="a" data-inline="true">返回查看</a>
+    <a href="#" data-role="button" data-theme="c" data-inline="true">——</a>
+	    <a href="#" data-role="button" data-theme="c" data-inline="true">——</a>
+		    <a href="#" data-role="button" data-theme="c" data-inline="true">——</a>
+			    <a href="#" data-role="button" data-theme="c" data-inline="true">——</a>
+    <a data-ajax="false" href="page_hmn_03.html" data-role="button" data-theme="e" data-inline="true">点击购买</a>
+    <h4>参数详情</h4>
+    </ul>
+</div>
+<div data-role="collapsible" data-theme="b" data-content-theme="d">
+    <h4>外观尺寸</h4>
+    <p>宽=78.7mm</br>   厚=9.45mm</br>   高=154mm</br></p>
+</div>
+<div data-role="collapsible" data-theme="b" data-content-theme="d">
+    <h4>基本参数</h4>
+    <p>
+</br>
+        CPU频率四核 1.2GHz</br>
+        CPU型号高通骁龙410 MSM8916</br>
+        GPUAdreno 306</br>
+        键盘类型虚拟QWERTY键盘</br>
+        输入方式触控</br>
+        系统MIUI 6系统，支持Android 4.4</br>
+        通话双麦降噪</br>
+        卡槽双卡槽（均为Micro-SIM卡）</br>
+
+</p>
+</div>
+<div data-role="collapsible" data-theme="b" data-content-theme="d">
+    <h4>容量</h4>
+    <p>
+
+        内存标准版 1GB / 增强版 2GB</br>
+        高速闪存标准版 8GB / 增强版 16GB</br>
+        最大存储扩展32GB</br>
+        注：为保护您的数据安全，降低隐私泄漏的风险，MIUI现不支持将APP应用安装至SD卡中。</br>
+
+</p>
+</div>
+<div data-role="collapsible" data-theme="b" data-content-theme="d">
+    <h4>移动版网络</h4>
+    <p>
+
+        运营商网络支持中国移动4G/3G/2G网络，支持中国联通2G网络</br>
+        网络频率TDD-LTE(B38/B39/B40/B41:2555-2655MHz)、FDD-LTE(B3/B7)</br>
+         TD-SCDMA(B34/B39)、WCDMA(B1/B2/B5)</br>
+         GSM(B2/B3/B8)</br>
+
+</p>
+</div>
+<div data-role="collapsible" data-theme="b" data-content-theme="d">
+    <h4>联通版网络</h4>
+    <p>
+
+        运营商网络支持中国联通4G/3G/2G网络，支持中国移动2G网络</br>
+        网络频率TDD-LTE(B40/B41:2555-2655MHz)、FDD-LTE(B1/B3)</br>
+         WCDMA(B1/B2/B8)</br>
+         GSM(B2/B3/B8)</br>
+
+</p>
+</div>
+<div data-role="collapsible" data-theme="b" data-content-theme="d">
+    <h4>电信版网络</h4>
+    <p>
+
+        运营商网络主卡支持中国电信4G/3G/2G网络，副卡支持中国移动、中国联通2G网络</br>
+        网络频率TDD-LTE(B41:2635-2655MHz)、FDD-LTE(B1/B3)</br>
+         CDMA(2000/1X/EVDO Rev.A 3G;800MHz)</br>
+         GSM(900/1800/1900MHz)</br>
+
+</p>
+</div>
+<div data-role="collapsible" data-theme="b" data-content-theme="d">
+    <h4>数据</h4>
+    <p>
+
+        GPSGPS+AGPS +GLONASS+北斗定位</br>
+        蓝牙BT4.0LE</br>
+        WIFIWAPI/WLAN(802.11 a/b/g/n)</br>
+
+</p>
+</div>
+<div data-role="collapsible" data-theme="b" data-content-theme="d">
+    <h4>电池</h4>
+    <p>
+
+        容量3100/3200mAh(min/typ)锂离子聚合物电池</br>
+
+</p>
+</div>
+<div data-role="collapsible" data-theme="b" data-content-theme="d">
+    <h4>屏幕</h4>
+    <p>
+
+        屏幕尺寸5.5英寸</br>
+        屏幕材质IPS 全贴合屏幕</br>
+        分辨率1280x720像素</br>
+        触摸屏多点触控电容屏</br>
+
+</p>
+</div>
+<div data-role="collapsible" data-theme="b" data-content-theme="d">
+    <h4>拍照</h4>
+    <p>
+
+        后置摄像头1300万像素</br>
+        前置摄像头500万像素</br>
+        闪光灯LED闪光灯</br>
+        光圈后置F2.2 前置F2.4</br>
+        ISO感光模式支持可选</br>
+        白平衡支持可选</br>
+        对焦方式支持可选</br>
+        对焦区域支持可选</br>
+        自动对焦支持</br>
+        拍摄场景支持可选</br>
+        广角后置28mm</br>
+        连拍功能每秒8连拍</br>
+        其它性能零快门延迟、人脸识别、高动态范围（HDR）、实时滤镜</br>
+
+</p>
+</div>
+<div data-role="collapsible" data-theme="b" data-content-theme="d">
+    <h4>摄像</h4>
+    <p>
+
+        视频拍摄后置支持 1080p （1920x1080）高清摄像</br>
+         前置支持 720p （1280x720）准高清摄像</br>
+
+</p>
+</div>
+<div data-role="collapsible" data-theme="b" data-content-theme="d">
+    <h4>多媒体播放</h4>
+    <p>
+
+        音乐播放支持mp3、aac、aac+、eaac+、amr、wb-amr、midi、ogg等格式</br>
+        视频播放支持1080p （1920x1080，30帧/秒）视频播放</br>
+         支持mpeg4、h.263、h.264</br>
+        图片播放支持JPEG、PNG、GIF、BMP等格式</br>
+        Flash播放支持</br>
+        收音机支持</br>
+</br>
+</p>
+</div>
+<div data-role="collapsible" data-theme="b" data-content-theme="d">
+    <h4>感应器</h4>
+    <p>
+
+        陀螺仪支持</br>
+        光线感应器支持</br>
+        重力感应支持</br>
+        距离感应支持</br>
+        电子罗盘支持</br>
+
+</p>
+</div>
+<div data-role="collapsible" data-theme="b" data-content-theme="d">
+    <h4>包装内容</h4>
+    <p>手机主机、专用电池、电源适配器、USB2.0 数据线，三包凭证，入门指南 </p>
+</div>
+
+
+
+
+	</div>
+
+	<div data-role="footer" data-theme="b" data-position="fixed">
+		<h1>版本所有&copy; 2015~2020</h1>
+	</div>
+</div>
+
+</body>
+</html>

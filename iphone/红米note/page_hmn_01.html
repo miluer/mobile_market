@@ -1,0 +1,110 @@
+<html>
+<head>
+	<meta charset="GBK">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Headers - jQuery Mobile Demos</title>
+	<link rel="stylesheet"  href="jqm/css/themes/default/jquery.mobile-1.3.2.min.css">
+	<script src="jqm/js/jquery.js"></script>
+	<script src="jqm/js/jquery.mobile-1.3.2.min.js"></script>
+</head>
+<body>
+<!--定义框架-->
+<div data-role="page">
+	<div data-role="header" data-theme="b">
+	<a data-ajax="false" href="../手机专卖网主界面/page_m00.html" data-icon="back">返回</a>
+		<h1>手机专卖网-V1.0</h1>
+		<a data-ajax="false" href="#" data-icon="refresh">刷新</a>	 
+	</div>
+
+
+
+
+	<div data-role="content">
+
+<label for="search">搜品牌 或 搜型号</label>
+<input name="password" id="search" value="" placeholder="品牌  型号..." type="search">
+
+
+
+<p>
+    <a data-ajax="false" href="./小米顶配版/page_m02.html" data-role="button" data-theme="a" data-inline="true">iphone5</a>
+	    <a data-ajax="false" href="./page_m4_02.html" data-role="button" data-theme="a" data-inline="true">iphone5s</a>
+		    <a data-ajax="false" href="./红米note/page_hmn_02.html" data-role="button" data-theme="a" data-inline="true">iphone 6plus</a>
+
+</p>
+<oo data-role="listview">
+    <li>Iphone</li>
+</oo>
+
+
+<a href="#p1" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="image/mn1.png" alt="Paris, France" style="width:30%"></a>
+<a href="#p2" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="image/mn2.png" alt="Paris, France" style="width:30%"></a>
+<a href="#p3" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="image/mn3.png" alt="Sydney, Australia" style="width:30%"></a>
+<div data-role="popup" id="p1" data-overlay-theme="a" data-theme="d" data-corners="false">
+    <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="image/mn1.png" style="max-height:512px;" alt="Paris, France">
+</div>
+<div data-role="popup" id="p2" data-overlay-theme="a" data-theme="d" data-corners="false">
+    <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="image/mn2.png" style="max-height:512px;" alt="Sydney, Australia">
+</div>
+
+<div data-role="popup" id="p3" data-overlay-theme="a" data-theme="d" data-corners="false">
+    <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="image/mn3.png" style="max-height:512px;" alt="New York, USA">
+</div>
+<p></p>
+<a data-ajax="false" href="./小米顶配版/page_m02.html">点击查看详情</a>
+
+<oo data-role="listview">
+    <li>iphone6</li>
+</oo>
+
+
+<a href="#p4" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="image/m4_1.png" alt="Paris, France" style="width:30%"></a>
+<a href="#p5" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="image/m4_2.png" alt="Paris, France" style="width:30%"></a>
+<a href="#p6" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="image/m4_3.png" alt="Sydney, Australia" style="width:30%"></a>
+<div data-role="popup" id="p4" data-overlay-theme="a" data-theme="d" data-corners="false">
+    <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="image/m4_1.png" style="max-height:512px;" alt="Paris, France">
+</div>
+<div data-role="popup" id="p5" data-overlay-theme="a" data-theme="d" data-corners="false">
+    <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="image/m4_2.png" style="max-height:512px;" alt="Sydney, Australia">
+</div>
+
+<div data-role="popup" id="p6" data-overlay-theme="a" data-theme="d" data-corners="false">
+    <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="image/m4_3.png" style="max-height:512px;" alt="New York, USA">
+</div>
+<p></p>
+<a data-ajax="false" href="./page_m4_02.html">点击查看详情</a>
+
+
+<oo data-role="listview">
+    <li>iphone6s</li>
+</oo>
+
+
+<a href="#p7" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="image/hmn1.png" alt="Paris, France" style="width:30%"></a>
+<a href="#p8" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="image/hmn2.png" alt="Paris, France" style="width:30%"></a>
+<a href="#p9" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="image/hmn3.png" alt="Sydney, Australia" style="width:30%"></a>
+<div data-role="popup" id="p7" data-overlay-theme="a" data-theme="d" data-corners="false">
+    <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="image/hmn1.png" style="max-height:512px;" alt="Paris, France">
+</div>
+<div data-role="popup" id="p8" data-overlay-theme="a" data-theme="d" data-corners="false">
+    <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="image/hmn2.png" style="max-height:512px;" alt="Sydney, Australia">
+</div>
+
+<div data-role="popup" id="p9" data-overlay-theme="a" data-theme="d" data-corners="false">
+    <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="image/hmn3.png" style="max-height:512px;" alt="New York, USA">
+</div>
+<p></p>
+<a data-ajax="false" href="./红米note/page_hmn_02.html">点击查看详情</a>
+
+
+
+
+	</div>
+
+	<div data-role="footer" data-theme="b" data-position="fixed">
+		<h1>版本所有&copy; 2015~2020</h1>
+	</div>
+</div>
+
+</body>
+</html>

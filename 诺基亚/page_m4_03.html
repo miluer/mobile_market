@@ -1,0 +1,155 @@
+<html>
+<head>
+	<meta charset="GBK">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Headers - jQuery Mobile Demos</title>
+	<link rel="stylesheet"  href="jqm/css/themes/default/jquery.mobile-1.3.2.min.css">
+	<script src="jqm/js/jquery.js"></script>
+	<script src="jqm/js/jquery.mobile-1.3.2.min.js"></script>
+</head>
+<body>
+<!--定义框架-->
+<div data-role="page">
+	<div data-role="header" data-theme="b">
+	<a data-ajax="false" href="../xiaomi4/page_m4_02.html" data-icon="back">返回</a>
+		<h1>手机专卖网-V1.0</h1>
+		<a data-ajax="false" href="#" data-icon="refresh">刷新</a>	 
+	</div>
+
+	
+	<div data-role="content">
+<form>
+<label for="search">热卖手机搜索</label>
+<input name="password" id="search" value="" placeholder="品牌  型号..." type="search">
+<p>
+    <a data-ajax="false" href="../小米顶配版/page_m02.html" data-role="button" data-theme="a" data-inline="true">小米顶配版</a>
+	    <a data-ajax="false" href="../xiaomi4/page_m4_02.html" data-role="button" data-theme="a" data-inline="true">小米4</a>
+		    <a data-ajax="false" href="../红米note/page_hmn_02.html" data-role="button" data-theme="a" data-inline="true">红米note</a>
+
+</p>
+
+<oo data-role="listview">
+    <li>小米顶配版购买</li>
+</oo>
+
+
+<script>
+	function test(){
+		alert("ttt");
+		$("#tt").text('bgColor');
+	}
+</script>
+<p>
+    <a href="#" data-role="button" data-inline="true">颜色选择</a>
+    <a href="javascript:alert('您已选择颜色为酷黑')" data-role="button" data-theme="a" data-inline="true">酷黑</a>
+	<a href="javascript:alert('您已选择颜色为炫白')" data-role="button" data-theme="c" data-inline="true">炫白</a>
+    <a href="javascript:alert('您已选择颜色为橙黄')" data-role="button" data-theme="e" data-inline="true">橙黄</a>
+</p>
+
+<p>
+
+    <a href="#" data-role="button" data-inline="true">内存选择</a>>
+    <a href="javascript:alert('您已选择内存为16G')" data-role="button" data-theme="b" data-inline="true">16G  1499RMB</a>
+    <a href="javascript:alert('您已选择内存为32G')" data-role="button" data-theme="b" data-inline="true">32G  1699RMB</a>
+</p>
+<form>
+<fieldset data-role="controlgroup" data-type="horizontal">
+<a href="#" data-role="button" data-theme="e" data-inline="true">数量</a>
+    <legend></legend>
+    <label for="select-h-2a"></label>
+    <select name="select-h-2a" id="select-h-2a">
+        <option value="#">1</option>
+        <option value="#">2</option>
+        <option value="#">3</option>
+		<option value="#">4</option>
+		<option value="#">5</option>
+		<option value="#">6</option>
+		<option value="#">7</option>
+		<option value="#">8</option>
+		<option value="#">9</option>
+		<option value="#">10</option>
+    </select>
+</fieldset>
+</form>
+
+<a href="#popupLogin" data-rel="popup" data-position-to="window" data-role="button" data-inline="true" data-icon="check" data-theme="a" data-transition="pop">手机专卖网用户登陆</a>
+<div data-role="popup" id="popupLogin" data-theme="a" class="ui-corner-all">
+    
+        <div style="padding:10px 20px;">
+            <h3>请登录</h3>
+            <label for="un" class="手机专卖网">用户名:</label>
+            <input name="user" id="un" value="张琳" placeholder="username" data-theme="a" type="text">
+            <label for="pw" class="ui-hidden-accessible">密码:</label>
+            <input name="pass" id="pw" value="123456" placeholder="password" data-theme="a" type="password">
+           <a data-ajax="false" href="javascript:alert('登陆成功！')"><button sdata-theme="b" data-icon="check">登陆</button></a>
+        </div>
+    
+</div>
+
+
+<label for="date">输入收货地址</label>
+<input name="date" id="date" value="" type="date" maxlength="30">
+<label for="date">联系号码</label>
+<input name="date" id="date" value="" type="date" maxlength="11">
+<fieldset data-role="controlgroup">
+    <legend></legend>
+    <input name="checkbox-1a" id="checkbox-1a" checked="" type="checkbox">
+    <label for="checkbox-1a">保存当前地址</label>
+</fieldset>
+
+
+
+<div data-role="collapsible" data-theme="b" data-content-theme="d">
+    <h4>默认地址</h4>
+    <p>云南省昭通市镇雄县坡头镇破头村兴民路34号</p>
+	<p>
+    <a data-ajax="false" href="page_m4_03.html" data-role="button" data-inline="true">取消</a>	    
+    <a data-ajax="false" href="page_m4_03.html" data-role="button" data-theme="a" data-inline="true">确认</a>
+</p>
+</div>
+<div data-role="collapsible" data-theme="b" data-content-theme="d">
+    <h4>地址1</h4>
+    <p>江西省南昌市华东交通大学北区33栋</p>
+	<a data-ajax="false" href="page_m4_03.html" data-role="button" data-inline="true">取消</a>	    
+    <a data-ajax="false" href="page_m4_03.html" data-role="button" data-theme="a" data-inline="true">确认</a>
+</div>
+<div data-role="collapsible" data-theme="b" data-content-theme="d">
+    <h4>地址2</h4>
+    <p>四川省成都市新都区学院路东段289号</p>
+	<a data-ajax="false" href="page_m4_03.html" data-role="button" data-inline="true">取消</a>	    
+    <a data-ajax="false" href="page_m4_03.html" data-role="button" data-theme="a" data-inline="true">确认</a>
+</div>
+<div data-role="collapsible" data-theme="b" data-content-theme="d">
+    <h4>地址3</h4>
+    <p>浙江省台州市玉环县干江敬老院</p>
+	<a data-ajax="false" href="page_m4_03.html" data-role="button" data-inline="true">取消</a>	    
+    <a data-ajax="false" href="page_m4_03.html" data-role="button" data-theme="a" data-inline="true">确认</a>
+</div>
+
+
+<form>
+    <label for="textarea-1">买家留言</label>
+    <textarea cols="40" rows="8" name="textarea-1" id="textarea-1"></textarea>
+</form>
+
+<p>
+    <a data-ajax="false" href="page_m4_03.html" data-role="button" data-inline="true">返回重选</a>	    
+    <a data-ajax="false" href="page_m4_04.html" data-role="button" data-theme="a" data-inline="true">确认</a>
+</p>
+
+
+
+
+
+
+
+
+	</div>
+                                2015/9/18
+	<div data-role="footer" data-theme="b" data-position="fixed">
+		<h1>版本所有&copy; 2015~2020</h1>
+	</div>
+</div>
+
+</body>
+</html>
